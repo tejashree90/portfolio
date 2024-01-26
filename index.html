@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png" />
+    <title>Portfoilo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,800;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="sidebar">
+            <ul>
+                <li class="menu-cancel" onclick="hideSidebar()"><i class="fa-solid fa-xmark"></i></li>
+                <li> <i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+                <li> <i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/tejashreethakur/" target="_blank">Linekdin</a></li>
+                <li> <i class="fa-regular fa-user"></i><a href="mailto:tejashreet3006@gmail.com" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+
+
+        <!--main content right side start-->
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-option">
+                    <i class="fa-regular fa-user nav-item"></i>
+                    <a href="mailto:tejashreet3006@gmail.com" target="_blank"><button type="button"
+                            class="btn btn-success nav-item ">Contact me </button>
+                    </a>
+                    <p class="menu-button" onclick="showSidebar()"><i class="fa-solid fa-bars "></i></p>
+
+
+                    <!-- <a href="https://www.behance.net/tejashreethakur" target="_blank"><button type="button"
+                        class="btn btn-primary nav-item ">Behance  </button>
+                </a> -->
+                </div>
+            </div>
+
+
+            <!--banner-->
+
+            <div class="main-project">
+                <div class="banner">
+                    <img src="./assets/bg.png">
+                </div>
+
+
+
+
+                <!---Projects -->
+                <h2 class="pro-heading">Projects</h2>
+                <div class="card-container">
+
+                    <a href="https://www.maplytics.com/" target="_blank">
+                        <div class="card">
+                            <img src="./assets/card1.png" class="card-img2">
+                            <p class="card-title">Maplytics Website</p>
+                            <p class="card-info">WP Elementor (Design, implementation and deployment) </p>
+
+                        </div>
+                    </a>
+                    <a href=" https://www.inogic.com/" target="_blank">
+                        <div class="card">
+                            <img src="./assets/card2.png" class="card-img2">
+                            <p class="card-title">Inogic Website</p>
+                            <p class="card-info">WP Elementor (Design, implementation and deployment) </p>
+
+                        </div>
+                    </a>
+                    <a href="https://www.inogic.com/services/" target="_blank">
+                        <div class="card">
+                            <img src="./assets/card2.png" class="card-img2">
+                            <p class="card-title">Inogic/Services </p>
+                            <p class="card-info">WP Elementor (Design, implementation and deployment) </p>
+
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/tejashree90/Spotify-project" target="_blank">
+                        <div class="card">
+                            <img src="./assets/card4.jpg" class="card-img2">
+                            <p class="card-title">Spotify Clone</p>
+                            <p class="card-info">HTML5, CSS3, Bootstrap, Responsive</p>
+
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="./assets/card5.jpg" class="card-img2">
+                            <p class="card-title">Airbnb Clone</p>
+                            <p class="card-info">Node JS, Express Js, MonogoDB, MVC</p>
+
+                        </div>
+                    </a>
+
+
+                    <a href="https://tic-tac-toe-java-script-project.vercel.app/" target="_blank">
+                        <div class="card">
+                            <img src="./assets/card6.png" class="card-img2">
+                            <p class="card-title">Tic-Tac-Toe-game</p>
+                            <p class="card-info">HTML5, CSS, Javascript</p>
+
+                        </div>
+                    </a>
+                    <!-- <a href="">
+        <div class="card">
+            <img src="./assets/card7.png" class="card-img2">
+            <p class="card-title">To-Do-List</p>
+            <p class="card-info">React Js, Node Js, Express Js</p>
+
+        </div>
+    </a> -->
+
+                    <a href="https://drive.google.com/drive/u/1/folders/1mpxHH0XUguJP_sRKB29hPCHpBb4xaQ9q"
+                        target="_blank">
+                        <div class="card">
+                            <img src="./assets/card8.png" class="card-img2">
+                            <p class="card-title">Designs, Emailers, UI works</p>
+                            <p class="card-info">Photoshop, Illustrator, XD , Canva, mailchimp / HTML,CSS, bootstrap and
+                                hosted on FTP
+                            </p>
+
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <!---software skills -->
+                <h2 class="pro-heading">What I Know</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+                    <div class="flex-1 flex flex-col gap-4 bg-card Primary p-4 rounded-md shadow-lg">
+                        <p class="text-primary font-medium text-lg tracking-wider ">Frontend</p>
+                        <div class="flex flex-wrap gap-2">
+                            <p
+                                class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                HTML5
+                            </p>
+                            <p
+                                class="rounded-md bg-body  text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                CSS
+                            </p>
+                            <p
+                                class="rounded-md bg-body text-xs text-dark font-bold text-primary p-2 border border-yellow-500/60">
+                                Javascript</p>
+                            <p
+                                class="rounded-md bg-body text-xs text-dark font-bold  text-primary p-2 border border-yellow-500/60">
+                                Bootstrap</p>
+
+                            <p
+                                class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                Wordpress Elementor</p>
+                            <p
+                                class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                React
+                                js</p>
+                            <p
+                                class="rounded-md bg-body text-xs text-dark font-bold text-primary p-2 border border-yellow-500/60">
+                                Tailwind</p>
+                        </div>
+                    </div>
+                    <div class="flex-1 flex flex-col gap-4 bg-card Primary p-4 rounded-md shadow-lg">
+                        <p class="text-primary font-medium text-lg tracking-wider">Backend</p>
+                        <div class="flex flex-wrap gap-2">
+                            <p
+                                class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                Node
+                                JS
+                            </p>
+                            <p
+                                class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                Express Js
+                            </p>
+
+                            <p class="text-primary font-medium text-lg tracking-wider">Database</p>
+                            <div class="flex flex-wrap gap-2">
+                                <p
+                                    class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                    MySql
+                                </p>
+                                <p
+                                    class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                    MongoDB
+                                </p>
+                            </div>
+                            <p class="text-primary font-medium text-lg tracking-wider">Version Control</p>
+                            <div class="flex flex-wrap gap-2">
+                                <p
+                                    class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                    GIthub</p>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="flex-1 flex flex-col gap-4 bg-card Primary p-4 rounded-md shadow-lg ">
+                        <p class="text-primary font-medium text-lg tracking-wider">Design Skills</p>
+                        <div class="flex flex-wrap gap-2">
+                            <p
+                                class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                Adobe Photoshop</p>
+                            <p
+                                class="rounded-md bg-body  text-dark font-bold text-xs text-primary p-2 border border-yellow-500/60">
+                                Adobe Illustrator</p>
+                            <p class="rounded-md bg-body text-dark font-bold text-xs text-primary p-2 ">
+                                Adobe XD</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!---software skills end -->
+
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    </div>
+    <div class="footer"> Tejashree Thakur, All Rights Reserved.</div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
